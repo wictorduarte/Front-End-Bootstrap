@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.navbar{
+    background-color: lightslategrey;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: darkslateblue;
+    transition-delay: 100ms;
+}
+
+.quemsomos{
+    background-color: whitesmoke;
+    color: darkslateblue;
+}
+
+.margin{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.parceiros{
+    background-color: lightslategrey;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.servicos{
+    background-color: whitesmoke;
+    color: darkslateblue;
+    font-weight: bold;
+}
+
+.servicos .services-link{
+    color:darkslateblue;
+    text-decoration: none;
+}
+
+.servicos .services-link:hover{
+    color: darkturquoise;
+}
+
+.servicos img{
+    border: 3px solid darkslateblue;
+    border-radius: 5px;
+}
+
+.servicos img:hover{
+    width: 101%;
+    height: 91%;
+    border: 3px solid darkturquoise;
+    transition-delay: 150ms;
+}
+
+.bg-footer{
+    background-color: lightslategrey;
+    color: whitesmoke;
+    font-weight: bold;
+}
